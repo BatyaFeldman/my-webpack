@@ -1,9 +1,12 @@
 {
   "name": "my-webpack",
   "version": "1.0.0",
+  "private": true,
   "description": "",
   "main": "index.js",
-  "private": true,
+  "scripts": {
+    "start": "webpack"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/BatyaFeldman/my-webpack.git"
