@@ -1,0 +1,22 @@
+{
+  "name": "my-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BatyaFeldman/my-webpack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BatyaFeldman/my-webpack/issues"
+  },
+  "homepage": "https://github.com/BatyaFeldman/my-webpack#readme",
+  "devDependencies": {
+    "webpack": "^5.21.2",
+    "webpack-cli": "^4.5.0"
+  }
+}
