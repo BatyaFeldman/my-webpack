@@ -21,7 +21,10 @@
   "homepage": "https://github.com/BatyaFeldman/my-webpack#readme",
   "devDependencies": {
     "bootstrap": "^4.6.0",
+    "clean-webpack-plugin": "^3.0.0",
     "css-loader": "^5.0.2",
+    "file-loader": "^6.2.0",
+    "html-loader": "^1.3.2",
     "html-webpack-plugin": "^5.0.0",
     "node-sass": "^5.0.0",
     "sass": "^1.32.7",

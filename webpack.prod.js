@@ -1,6 +1,7 @@
 const path = require("path");
 const common = require("./webpack.common");
 const { merge } = require("webpack-merge");
+const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 
 module.exports = merge(common, {
   mode: "production",
@@ -9,4 +10,5 @@ module.exports = merge(common, {
     //add content hash to prevent browser from caching the main.js. the hash will change everytime something in main.js changes
     filename: "main.[contenthash].js",
   },
+  plugins: [new CleanWebpackPlugin()],
 });
