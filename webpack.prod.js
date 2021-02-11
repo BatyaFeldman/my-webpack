@@ -8,7 +8,7 @@ module.exports = merge(common, {
   output: {
     path: path.resolve(__dirname, "dist"),
     //add content hash to prevent browser from caching the main.js. the hash will change everytime something in main.js changes
-    filename: "main.[contenthash].js",
+    filename: "[name].[contenthash].bundle.js",
   },
   plugins: [new CleanWebpackPlugin()],
 });
